@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.8.4",
+    "apollo-server-express": "^2.25.4",
+    "graphql": "^15.8.0",
+    "pg": "^8.7.3",
+    "scalar": "^0.2.9"
+  },
+  "name": "backencd_part",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
