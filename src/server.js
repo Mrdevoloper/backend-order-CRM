@@ -4,7 +4,8 @@ const express = require('express');
 const app = express();
 const modules = require('./modules');
 const PORT = process.env.PORT || 9000;
-app.use(cors())
+const cors = require('cors');
+app.use(cors());
 
 const server = new ApolloServer({
 	modules,
